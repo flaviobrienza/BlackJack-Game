@@ -16,6 +16,7 @@ def player():
             print('Your total is', tot) 
             if tot == 21:
                 print('You won')
+                quit()
             if tot > 21:
                 print('You lost')
                 break
