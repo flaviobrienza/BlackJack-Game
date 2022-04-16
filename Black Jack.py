@@ -10,7 +10,7 @@ def player():
         if question == 'yes' and tot <= 21:
             card = random.choice(num)
             if card == 1:
-                card = int(input('Do you want it as 1 or 11?: '))
+                card = int(input('Do you want "1" as 1 or 11?: '))
             print('This is your card', card) 
             tot = tot + card 
             print('Your total is', tot) 
