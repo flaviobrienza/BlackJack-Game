@@ -19,7 +19,7 @@ def player():
                 quit()
             if tot > 21:
                 print('You lost')
-                break
+                quit()
         if question == 'no' and tot == 0:
             print('Goodbye') 
         if question != 'yes' and question != 'no':
